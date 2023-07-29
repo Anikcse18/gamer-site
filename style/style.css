@@ -1,0 +1,96 @@
+@import url('https://fonts.googleapis.com/css2?family=Work+Sans:wght@400;500;600;700;800&display=swap');
+
+
+*{
+
+    margin: 0;
+
+}
+
+
+body{
+
+    max-width: 1100px;
+    margin: 0 auto;
+  
+    font-family: 'Work Sans', sans-serif;
+}
+
+/* nav bar section */
+nav{
+    
+    display: flex;
+    justify-content: space-between;
+    padding: 30px 0;
+}
+
+.navbar{
+
+    display: flex;
+    justify-content: space-between;
+    gap: 30px;
+    align-items: center;
+
+    color: #3C354F;
+    
+  
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+
+
+}
+
+.followus_text{
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 13px ;
+    border-radius: 8px;
+    padding: 15px 3px;
+    background: rgba(11, 2, 35, 0.10);
+
+}
+
+.followus_text img {
+   padding: 0 10px;
+}
+.followus_text a{
+
+    padding: 0 10px;
+
+}
+
+.navbar li{
+    list-style: none;
+
+}
+.navbar li a{
+    text-decoration: none;
+    color: #3C354F;
+}
+.logo-text{
+    display: flex;
+    gap: 20px;
+    align-items: center;
+}
+
+.logo-text{
+
+    text-align: center;
+    
+    font-size: 2.2rem;
+    
+    font-weight: 700;
+  
+}
+.logo-text span{
+
+    color: #FF42A5;
+}
+
+
+
+/* Responsive section */
+
