@@ -187,6 +187,7 @@ nav{
 }
 /* This banner Style */
 
+
 /* This is gamer section style */
 .gamer{
 
@@ -239,7 +240,7 @@ nav{
 
 @media screen and (max-width: 576px) {
 
-    nav, .navbar{
+    nav, .navbar, .gamer-container {
         flex-direction: column;
         
         align-items: center;
@@ -279,9 +280,24 @@ nav{
         width: 300px;
     }
 
-    
-    
     /* Banner resposnsive section */
+
+    /* gammer section */
+    .gamer-container{
+        padding: 0 30px;
+    }
+    .gamer-image img{
+
+        width: 400px ;
+       
+    }
+
+    .gamer-text{
+        text-align: center;
+    }
+
+
+    /* gammer section */
    
 
 }
@@ -289,7 +305,7 @@ nav{
 /* Tab Responsive section */
 @media screen and (min-width:576px) and (max-width: 960px){
 
-    nav, .navbar{
+    nav, .navbar, .gamer-container{
         flex-direction: column;
         
         align-items: center;
@@ -330,6 +346,24 @@ nav{
         padding: 10px;
         width: 100%;
     }
+
+
+    /* gammer section */
+      .gamer-container{
+        padding: 0 30px;
+    }
+    .gamer-image img{
+
+        width: 400px ;
+       
+    }
+
+    .gamer-text{
+        text-align: center;
+    }
+
+
+    /* gammer section */
 
 
 }
