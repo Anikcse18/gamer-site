@@ -21,7 +21,7 @@ nav{
     
     display: flex;
     justify-content: space-between;
-    padding: 30px 0;
+    padding: 1.8rem 0;
 }
 
 .navbar{
@@ -46,19 +46,19 @@ nav{
     display: flex;
     justify-content: center;
     align-items: center;
-    margin-left: 13px ;
-    border-radius: 8px;
-    padding: 15px 3px;
+    margin-left: 0.9rem ;
+    border-radius: 0.5rem;
+    padding: 1rem 0.2rem;
     background: rgba(11, 2, 35, 0.10);
 
 }
 
 .followus_text img {
-   padding: 0 10px;
+   padding: 0 0.7rem;
 }
 .followus_text a{
 
-    padding: 0 10px;
+    padding: 0 0.7rem;
 
 }
 
@@ -72,7 +72,7 @@ nav{
 }
 .logo-text{
     display: flex;
-    gap: 20px;
+    gap: 1.3rem;
     align-items: center;
 }
 
@@ -91,10 +91,11 @@ nav{
 }
 
 /* Banner section */
+
 .banner-container{
     display: flex;
     justify-content: space-between;
-    gap:20px;
+    gap:1.3rem;
     
 
 }
@@ -103,17 +104,17 @@ nav{
     width: 550px;
   
 }
+
 .banner{
     flex: 1;
     background-image: url('/images/Group 14.png') ;
     background-size: 100%;
-   
-
+  
 }
 
 .banner-text{
    
-    margin: 150px auto;
+    margin: 9.4rem auto;
 
     width: 50%;
     
@@ -121,14 +122,14 @@ nav{
 
 
 .banner-icon img{
-    width: 20px;
+    width: 1.3rem;
    
-    margin-right: 15px;
+    margin-right: 1rem;
     
 }
 .banner-icon p{
 
-    margin: 10px 0;
+    margin: 0.7rem 0;
     display: flex;
  
 }
@@ -154,12 +155,13 @@ nav{
 }
 
 .primary-btn{
+
     color: #fff;
-    border-radius: 48px;
+    border-radius: 3rem;
     background: var(--linear, linear-gradient(90deg, #FF42A5 0%, #FF42A5 100%));
     border: none;
-    padding: 15px 30px;
-    margin: 15px 15px 0 0;
+    padding: 1rem 1.8rem;
+    margin: 1rem 1rem 0 0;
     
 }
 
