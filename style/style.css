@@ -283,6 +283,9 @@ nav{
     /* Banner resposnsive section */
 
     /* gammer section */
+    .gamer{
+        background: none;
+    }
     .gamer-container{
         padding: 0 30px;
     }
@@ -319,6 +322,9 @@ nav{
     }
 
     /* Banner resposnsive section */
+    .gamer{
+        background: none;
+    }
     .banner-container{
 
         max-width: 1270px;
