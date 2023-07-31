@@ -235,6 +235,101 @@ nav{
 
 /* This is gamer section style */
 
+/* online-games section style */
+.online-game{
+
+    max-width: 1100px;
+    
+    margin-top: 50px;
+}
+.online-game-text{
+    text-align: center;
+}
+.online-game-tittle{
+    color: #0B0223;
+    font-size: 2.2rem;
+    font-weight: 700;
+    
+}
+.online-game-tittle span{
+    background: linear-gradient(180deg, #F948B2 0%, #8758F1 100%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+
+}
+
+.online-game-details{
+
+    color: #534C64;
+    
+    
+    font-style: normal;
+    font-weight: 400;
+    padding: 1.2rem 0; /* 166.667% */
+}
+.online-game-cart{
+    display: flex;
+    justify-content: space-evenly;
+    gap: 20;
+
+}
+.online-game-cart{
+    height: 500px;
+    display: flex;
+    justify-content: space-between;
+}
+.game-cart-1{
+    width: 240px;
+    height: 350px;
+ 
+
+    
+}
+.cart{
+    height: 280px;
+    
+    background-color: #4EC5F7;
+}
+.cart-bg-1{
+    
+    background: url('/images/Rectangle 4.png');
+    background-repeat: no-repeat;
+    background-size: contain;
+    
+
+}
+.cart-bg-2{
+    
+    background: url('/images/Rectangle 5.png');
+    background-repeat: no-repeat;
+    background-size: contain;
+    
+
+}
+.cart-bg-3{
+    
+    background: url('/images/Rectangle 7.png');
+    background-repeat: no-repeat;
+    background-size: contain;
+    
+
+}
+.cart-bg-4{
+    
+    background: url('/images/Rectangle 6.png');
+    background-repeat: no-repeat;
+    background-size: contain;
+    
+
+}
+
+.game-cart-1 p{
+
+}
+
+
+/* online-games section style */
 
 /* Responsive section */
 
