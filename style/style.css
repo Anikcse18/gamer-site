@@ -232,6 +232,13 @@ nav{
     line-height: 1.8rem;
     margin: 1rem 0;
 }
+.gamer-everyone-details{
+    color: #534C64;
+    
+    font-size: 1.2rem;
+    font-weight: 700;
+    line-height: 2rem;
+}
 
 /* This is gamer section style */
 
@@ -244,6 +251,8 @@ nav{
 }
 .online-game-text{
     text-align: center;
+
+
 }
 .online-game-tittle{
     color: #0B0223;
@@ -280,14 +289,14 @@ nav{
     justify-content: space-between;
 }
 .game-cart-1{
-    width: 240px;
-    height: 350px;
+    width: 15rem;
+    height: 21rem;
  
 
     
 }
 .cart{
-    height: 280px;
+    height: 17.5rem;
     
     background-color: #4EC5F7;
 }
@@ -324,9 +333,7 @@ nav{
 
 }
 
-.game-cart-1 p{
 
-}
 
 
 /* online-games section style */
@@ -335,7 +342,7 @@ nav{
 
 @media screen and (max-width: 576px) {
 
-    nav, .navbar, .gamer-container {
+    nav, .navbar, .gamer-container{
         flex-direction: column;
         
         align-items: center;
@@ -377,12 +384,13 @@ nav{
 
     /* Banner resposnsive section */
 
+
     /* gammer section */
     .gamer{
         background: none;
     }
-    .gamer-container{
-        padding: 0 30px;
+    .gamer-container, .gamer-container{
+        padding: 0 40px;
     }
     .gamer-image img{
 
@@ -396,6 +404,24 @@ nav{
 
 
     /* gammer section */
+
+    /* Online Game Section */
+    .online-game-text{
+        padding: 0 40px;
+    
+    }
+
+    .online-game-cart{
+        flex-direction: column;
+        align-items: center;
+
+    }
+    .game-cart-1 p{
+        text-align: center;
+        padding: 10px 0;
+    }
+
+    /* Online Game Section */
    
 
 }
@@ -465,6 +491,23 @@ nav{
 
 
     /* gammer section */
+
+    /* Online game */
+    .online-game-text{
+        padding: 0 40px;
+    
+    }
+
+    .online-game-cart{
+        flex-direction: column;
+        align-items: center;
+
+    }
+    .game-cart-1 p{
+        text-align: center;
+        padding: 10px 0;
+    }
+    /* online game section */
 
 
 }
