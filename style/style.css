@@ -382,7 +382,7 @@ nav{
 
     
 }
-.talking-imag{
+.talking-image{
     width: 150px;
     position: absolute;
     left: -80px;
@@ -479,6 +479,26 @@ nav{
 
     /* download section */
 
+    .dowload-container{
+        flex-direction: column;
+        padding: 0 40px;
+
+    }
+    .download-image{
+        
+      
+  
+    }
+    .aniversary-image{
+       width: 300px;
+    }
+    .talking-image{
+        width: 100px;
+      
+        left: -40px;
+        bottom: -40px;
+    }
+
     /* download section */
    
 
@@ -566,6 +586,30 @@ nav{
         padding: 10px 0;
     }
     /* online game section */
+
+    /* download section */
+
+    .dowload-container{
+        flex-direction: column;
+        padding: 0 40px;
+
+    }
+    .download-image{
+        
+      
+  
+    }
+    .aniversary-image{
+       width: 300px;
+    }
+    .talking-image{
+        width: 100px;
+      
+        left: -40px;
+        bottom: -40px;
+    }
+
+    /* download section */
 
 
 }
